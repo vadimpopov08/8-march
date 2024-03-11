@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+.wrapper {
+    height: 100%;
+}
+.container {
+    max-width: 1141px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 28px;
+    background-color: darkslateblue;
+}
+.header__container {
+    /* display: flex; */
+}
+.nav {}
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+}
+.nav__item {
+    flex-shrink: 1;
+}
+.nav__link {
+    color: white;
+}
+
+.congraturate {
+    background: url(../img/bg/congratulate_bg1.jpg) no-repeat center/cover;
+    /* padding: 157px 0px 188px; */
+    height: 100%;
+    position: relative;
+}
+.congratulate__container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.congratulation {
+    display: none;
+}
+.congratulation.pressed {
+    display: grid;
+    padding: 27px;
+    display: block;
+    text-align: center;
+    width: 637px;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Rosarium';
+    font-size: 38px;
+
+}
+.write-name-and-get {
+    margin-top: 78px;
+    display: flex;
+    font-size: 37px;
+}
+#yourName {
+    width: 100%;
+}
+.btn {
+    display: block;
+    padding: 8px 44px;
+    background-color: blue;
+    color: white;
+}
