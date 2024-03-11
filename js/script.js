@@ -5,5 +5,5 @@ let congratulateContainer = document.getElementsByClassName('congratulate__conta
 congratulateButton.addEventListener('click', () => {
     congratulation.classList.add('pressed')
     console.log(congratulation)
-    // congratulation.textContent = `Милая ${yourName.value}!`
+    congratulation.textContent = `Милая ${yourName.value} !`
 })
